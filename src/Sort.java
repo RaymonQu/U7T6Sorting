@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Sort
 {
   // Part A.  Which Sort is Which?
-  public static void firstSortingAlgorithm(int[] elements)
+  public static void selectionSort(int[] elements)
   {
     for (int j = 0; j < elements.length - 1; j++)
     {
@@ -22,7 +22,7 @@ public class Sort
   }
 
   // Part A.  Which Sort is Which?
-  public static void secondSortingAlgorithm(int[] elements)
+  public static void insertionSort(int[] elements)
   { 
     for (int j = 1; j < elements.length; j++)
     {
